@@ -1,0 +1,19 @@
+#Findfalcone problem explanation
+simply unzip the folder and open it in vscode
+install required packages like Material ui, axios, react-router-dom
+Also install node.js if not installed
+after that run command npm start to run your ui
+Also this project is deployed on netlify
+providing the link for the same : - "https://findfalcones.netlify.app/"
+
+now once user  selected the  planet from the dropdown then only valid vechiles will be available in the dropdown, invalid will get disabled
+
+invalid vehicles means if the user selected the planet that have greater distance than the max_distance of vehicles then in that case all vechiles that has less max_distance then the selected planet will get disabled(it is done bcz in problem statment it was given we can't select such vehicles)
+
+once user selected all the vehicles, find falcone button will get enabled.
+
+also reset button will reset its data to default
+
+Geek trust home button will redirect user to homepage
+
+start again button on result page will redirect user to homepage with default values of all card
